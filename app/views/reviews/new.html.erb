@@ -1,0 +1,4 @@
+<%= form_for [ @restaurant, @review ] do |f| %>
+  <%= f.text_field :content %>
+  <%= f.submit "Submit review", class: "btn btn-primary" %>
+<% end %>

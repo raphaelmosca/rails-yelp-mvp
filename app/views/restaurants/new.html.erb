@@ -1,2 +1,11 @@
-
-
+<%= form_for @restaurant do |t|  %>
+<%= t.label :name, "Enter a name" %>
+<%= t.text_field :name  %>
+<%= t.label :address, "Enter an address" %>
+<%= t.text_field :address  %>
+<%= t.label :phone_number, "Enter a phone number" %>
+<%= t.text_field :phone_number  %>
+<%= t.label :category, "Enter a category" %>
+<%= t.text_field :category  %>
+<%= t.submit %>
+<% end  %>
